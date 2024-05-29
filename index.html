@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Entry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Database Entry</h1>
+        </div>
+        <form id="entryForm">
+            <div id="formRows">
+                <div class="formRow">
+                    <input type="text" id="name1" name="name" placeholder="Name" required>
+                    <input type="email" id="email1" name="email" placeholder="Email" required>
+                    <input type="number" id="age1" name="age" placeholder="Age" required>
+                </div>
+            </div>
+            <button type="button" id="addRow">+</button>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
